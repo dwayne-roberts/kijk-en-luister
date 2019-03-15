@@ -42,6 +42,9 @@ export default class Search extends Component<Props> {
       "veronica-inside",
       "coen-en-sander",
       "De-rijdende-rechter",
+      "platenbazen",
+      "undercover-nederland",
+      "frank-visser"
     ],
     items: [],
     searchActive: false,
