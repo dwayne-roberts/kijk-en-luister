@@ -20,7 +20,6 @@ const SearchResults = styled.div`
   `}
 `
 
-
 const Input = styled.input`
   padding: 5px;
   font-size: 15px;
