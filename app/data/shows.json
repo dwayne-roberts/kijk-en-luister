@@ -3,7 +3,26 @@
     {
       "title": "Veronica Inside",
       "slug": "veronica-inside",
-      "description": "Veronica Inside (kortweg VI) is het best bekeken en beluisterd programma over voetbal."
+      "description": "Veronica Inside (kortweg VI) is het best bekeken en beluisterd programma over voetbal.",
+      "img": "assets/images/veronica-inside.jpg"
+    },
+    {
+      "title": "Platenbazen",
+      "slug": "platenbazen",
+      "description": "",
+      "img": "assets/images/platenbazen.jpg"
+    },
+    {
+      "title": "Undercover",
+      "slug": "undercover",
+      "description": "",
+      "img": "assets/images/undercover.jpg"
+    },
+    {
+      "title": "Meester Frank Visser doet uitspraak",
+      "slug": "meestervisser",
+      "description": "",
+      "img": "assets/images/frankvisser.jpg"
     }
   ]
 }
