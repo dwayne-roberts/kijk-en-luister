@@ -13,7 +13,7 @@ export default function playerbar(state: * = {}, action: Action) {
     case SET_PLAYER:
       return {
         ...state,
-        type: action.payload.type,
+        type: state.src === action.payload.src ? '' : action.payload.type,
         title: action.payload.title,
         src: state.src === action.payload.src ? '' : action.payload.src,
         expanded: true
