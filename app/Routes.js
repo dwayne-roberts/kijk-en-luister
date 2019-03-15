@@ -6,9 +6,11 @@ import HomePage from './containers/HomePage';
 import ShowPage from './containers/ShowPage';
 import EpisodePage from './containers/EpisodePage';
 import PlayerBar from './components/PlayerBar';
+import Search from './components/Search';
 
 export default () => (
   <App>
+  <Search />
     <Switch>
       <Route path={routes.SHOW} component={ShowPage} />
       <Route path={routes.EPISODE} component={EpisodePage} />
