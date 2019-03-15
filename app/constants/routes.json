@@ -1,4 +1,5 @@
 {
   "HOME": "/",
-  "COUNTER": "/counter"
+  "SHOW": "/show/:showSlug",
+  "EPISODE": "/show/:showSlug/:episodeId"
 }
