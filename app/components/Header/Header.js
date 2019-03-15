@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Slider from '../Slider';
+import Carousel from '../Carousel';
 
 const Wrapper = styled.div`
   align-items: center;
@@ -9,7 +9,6 @@ const Wrapper = styled.div`
   display: flex;
   min-height: 600px;
   justify-content: center;
-  overflow: hidden;
   padding-top: 28px;
   width: 100%;
 `;
@@ -23,9 +22,13 @@ export default class Header extends Component {
 
   render() {
     return (
-      <Wrapper>
-        <Slider />
-      </Wrapper>
+      <Carousel>
+        <img src="assets/images/coenensander.jpg" alt="" />
+        <img src="assets/images/platenbazen.jpg" alt="" />
+        <img src="assets/images/veronica-inside.jpg" alt="" />
+        <img src="assets/images/undercover.jpg" alt="" />
+        <img src="assets/images/frankvisser.jpg" alt="" />
+      </Carousel>
     );
   }
 }
