@@ -1,0 +1,180 @@
+{
+  "Clips": [
+    {
+      "Id": "ec4b90eb-1318-4eab-afbd-aa10011a7380",
+      "Title": "Veronica Inside",
+      "Description": "Veronica Inside",
+      "DescriptionHtml": "<p>Veronica Inside</p>\n<p></p>",
+      "Tags": [],
+      "Season": null,
+      "Episode": null,
+      "EpisodeType": "Full",
+      "ImageUrl": "https://www.omnycontent.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/ec4b90eb-1318-4eab-afbd-aa10011a7380/image.jpg?size=Medium",
+      "AudioUrl": "https://omnystudio.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/ec4b90eb-1318-4eab-afbd-aa10011a7380/audio.mp3",
+      "VideoUrl": null,
+      "EmbedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-5/embed",
+      "DurationSeconds": 7200.522,
+      "PublishState": "Published",
+      "PublishedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-5",
+      "Visibility": "Public",
+      "PublishedUtc": "2019-03-14T17:11:20Z",
+      "PlaylistIds": [
+        "7cf05265-039f-4c7f-9378-a8b100ba4b7e",
+        "183f8c77-6f73-45fe-9576-a9420095fafb",
+        "00dd96a2-c9c7-45ca-b054-a9f900828049"
+      ],
+      "Chapters": [],
+      "State": "Ready",
+      "ShareUrl": null,
+      "ImportedId": null,
+      "Monetization": {
+        "PreRoll": false,
+        "PostRoll": false,
+        "MidRolls": []
+      },
+      "ProgramId": "c5c7d06f-3848-492c-88e0-a8b100ba0608",
+      "PublishedAudioSizeInBytes": 115248401
+    },
+    {
+      "Id": "8d2737a2-8bb1-4376-9fb2-aa0f011a4292",
+      "Title": "Veronica Inside",
+      "Description": "Veronica Inside",
+      "DescriptionHtml": "<p>Veronica Inside</p>\n<p></p>",
+      "Tags": [],
+      "Season": null,
+      "Episode": null,
+      "EpisodeType": "Full",
+      "ImageUrl": "https://www.omnycontent.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/8d2737a2-8bb1-4376-9fb2-aa0f011a4292/image.jpg?size=Medium",
+      "AudioUrl": "https://omnystudio.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/8d2737a2-8bb1-4376-9fb2-aa0f011a4292/audio.mp3",
+      "VideoUrl": null,
+      "EmbedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside/embed",
+      "DurationSeconds": 7205.224,
+      "PublishState": "Published",
+      "PublishedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside",
+      "Visibility": "Public",
+      "PublishedUtc": "2019-03-13T17:09:53Z",
+      "PlaylistIds": [
+        "7cf05265-039f-4c7f-9378-a8b100ba4b7e",
+        "183f8c77-6f73-45fe-9576-a9420095fafb",
+        "00dd96a2-c9c7-45ca-b054-a9f900828049"
+      ],
+      "Chapters": [],
+      "State": "Ready",
+      "ShareUrl": null,
+      "ImportedId": null,
+      "Monetization": {
+        "PreRoll": false,
+        "PostRoll": false,
+        "MidRolls": []
+      },
+      "ProgramId": "c5c7d06f-3848-492c-88e0-a8b100ba0608",
+      "PublishedAudioSizeInBytes": 115323633
+    },
+    {
+      "Id": "c039692b-29cd-491e-b4ae-aa0e011a5c1c",
+      "Title": "Veronica Inside",
+      "Description": "Veronica Inside",
+      "DescriptionHtml": "<p>Veronica Inside</p>\n<p></p>",
+      "Tags": [],
+      "Season": null,
+      "Episode": null,
+      "EpisodeType": "Full",
+      "ImageUrl": "https://www.omnycontent.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/c039692b-29cd-491e-b4ae-aa0e011a5c1c/image.jpg?size=Medium",
+      "AudioUrl": "https://omnystudio.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/c039692b-29cd-491e-b4ae-aa0e011a5c1c/audio.mp3",
+      "VideoUrl": null,
+      "EmbedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-4/embed",
+      "DurationSeconds": 7206.583,
+      "PublishState": "Published",
+      "PublishedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-4",
+      "Visibility": "Public",
+      "PublishedUtc": "2019-03-12T17:10:55Z",
+      "PlaylistIds": [
+        "7cf05265-039f-4c7f-9378-a8b100ba4b7e",
+        "183f8c77-6f73-45fe-9576-a9420095fafb",
+        "00dd96a2-c9c7-45ca-b054-a9f900828049"
+      ],
+      "Chapters": [],
+      "State": "Ready",
+      "ShareUrl": null,
+      "ImportedId": null,
+      "Monetization": {
+        "PreRoll": false,
+        "PostRoll": false,
+        "MidRolls": []
+      },
+      "ProgramId": "c5c7d06f-3848-492c-88e0-a8b100ba0608",
+      "PublishedAudioSizeInBytes": 115345367
+    },
+    {
+      "Id": "c48af3a3-ddc3-4e8f-87ba-aa0d011a8bab",
+      "Title": "Veronica Inside",
+      "Description": "Veronica Inside",
+      "DescriptionHtml": "<p>Veronica Inside</p>\n<p></p>",
+      "Tags": [],
+      "Season": null,
+      "Episode": null,
+      "EpisodeType": "Full",
+      "ImageUrl": "https://www.omnycontent.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/c48af3a3-ddc3-4e8f-87ba-aa0d011a8bab/image.jpg?size=Medium",
+      "AudioUrl": "https://omnystudio.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/c48af3a3-ddc3-4e8f-87ba-aa0d011a8bab/audio.mp3",
+      "VideoUrl": null,
+      "EmbedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-3/embed",
+      "DurationSeconds": 7179.938,
+      "PublishState": "Published",
+      "PublishedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-3",
+      "Visibility": "Public",
+      "PublishedUtc": "2019-03-11T17:11:36Z",
+      "PlaylistIds": [
+        "7cf05265-039f-4c7f-9378-a8b100ba4b7e",
+        "183f8c77-6f73-45fe-9576-a9420095fafb",
+        "00dd96a2-c9c7-45ca-b054-a9f900828049"
+      ],
+      "Chapters": [],
+      "State": "Ready",
+      "ShareUrl": null,
+      "ImportedId": null,
+      "Monetization": {
+        "PreRoll": false,
+        "PostRoll": false,
+        "MidRolls": []
+      },
+      "ProgramId": "c5c7d06f-3848-492c-88e0-a8b100ba0608",
+      "PublishedAudioSizeInBytes": 114919049
+    },
+    {
+      "Id": "43fe33ef-b14a-4209-b54b-aa0a01194fb1",
+      "Title": "Veronica Inside",
+      "Description": "Veronica Inside",
+      "DescriptionHtml": "<p>Veronica Inside</p>\n<p></p>",
+      "Tags": [],
+      "Season": null,
+      "Episode": null,
+      "EpisodeType": "Full",
+      "ImageUrl": "https://www.omnycontent.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/43fe33ef-b14a-4209-b54b-aa0a01194fb1/image.jpg?size=Medium",
+      "AudioUrl": "https://omnystudio.com/d/clips/56ccbbb7-0ff7-4482-9d99-a88800f49f6c/c5c7d06f-3848-492c-88e0-a8b100ba0608/43fe33ef-b14a-4209-b54b-aa0a01194fb1/audio.mp3",
+      "VideoUrl": null,
+      "EmbedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-2/embed",
+      "DurationSeconds": 10801.45,
+      "PublishState": "Published",
+      "PublishedUrl": "https://omny.fm/shows/radioveronica-inside/veronica-inside-2",
+      "Visibility": "Public",
+      "PublishedUtc": "2019-03-08T17:07:23Z",
+      "PlaylistIds": [
+        "7cf05265-039f-4c7f-9378-a8b100ba4b7e",
+        "183f8c77-6f73-45fe-9576-a9420095fafb",
+        "00dd96a2-c9c7-45ca-b054-a9f900828049"
+      ],
+      "Chapters": [],
+      "State": "Ready",
+      "ShareUrl": null,
+      "ImportedId": null,
+      "Monetization": {
+        "PreRoll": false,
+        "PostRoll": false,
+        "MidRolls": []
+      },
+      "ProgramId": "c5c7d06f-3848-492c-88e0-a8b100ba0608",
+      "PublishedAudioSizeInBytes": 172863238
+    }
+  ],
+  "Cursor": null
+}
