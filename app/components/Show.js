@@ -31,6 +31,7 @@ class Show extends React.Component<Props> {
 
     return (
       <Container>
+      <Link to="/">Home</Link>
         {show ? (
           <React.Fragment>
             <h2>{show.title}</h2>
@@ -57,7 +58,7 @@ class Show extends React.Component<Props> {
         ) : (
           <NotFound>Show is niet gevonden!</NotFound>
         )}
-        <Link to="/">Home</Link>
+
       </Container>
     );
   }
