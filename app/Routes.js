@@ -5,6 +5,7 @@ import App from './containers/App';
 import HomePage from './containers/HomePage';
 import ShowPage from './containers/ShowPage';
 import EpisodePage from './containers/EpisodePage';
+import PlayerBar from './components/PlayerBar';
 
 export default () => (
   <App>
@@ -13,5 +14,6 @@ export default () => (
       <Route path={routes.EPISODE} component={EpisodePage} />
       <Route path={routes.HOME} component={HomePage} />
     </Switch>
+    <PlayerBar />
   </App>
 );
