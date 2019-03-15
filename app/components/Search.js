@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { css }  from 'styled-components';
-
+import { Link } from 'react-router-dom';
 
 const SearchResults = styled.div`
   height: 0%;
@@ -8,22 +8,30 @@ const SearchResults = styled.div`
   background: white;
   color: black;
   position: absolute;
-  transition : .3s ease height;
+  transition : display .3s ease height;
   box-sizing: border-box;
+  z-index: 10;
+  display: none;
 
   ${props => props.searchActive && css`
+    display: block;
     height: 80%;
     padding: 20px;
   `}
+`
+
+const Close = styled.span `
+  float: right;
+  cursor: pointer;
 `
 
 export default class Search extends Component<Props> {
 
   state = {
     initialItems: [
-      "Veronica inside",
-      "Coen en Sander",
-      "De rijdende rechter",
+      "veronica-inside",
+      "coen-en-sander",
+      "De-rijdende-rechter",
     ],
     items: [],
     searchActive: false,
@@ -46,15 +54,23 @@ export default class Search extends Component<Props> {
     });
   }
 
+  closeSearch = () => {
+    this.setState({
+      searchActive: false,
+    });
+  }
+
   render = () => {
     return (
       <div>
+
         <input type="text"  placeholder="Search" onFocus={this.setSearchActive} onChange={this.filterList}/>
         <SearchResults
           searchActive={this.state.searchActive}>
+          <Close onClick={this.closeSearch}>Close</Close>
           {
           this.state.items.map(function(item) {
-            return <li data-category={item} key={item}>{item}</li>
+            return <li data-category={item} key={item}><Link  to={`/show/${item}`}>{item}</Link></li>
         })
           }
         </SearchResults>
