@@ -1,8 +1,9 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
-export default class Slider extends PureComponent {
+export default class Slider extends Component {
   static defaultProps = {};
+
   static propTypes = {};
 
   render() {
