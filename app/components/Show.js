@@ -76,6 +76,7 @@ const Container = styled.div`
   overflow: scroll;
   padding-bottom: 80px;
   box-sizing: border-box;
+  color: #fff;
 `;
 
 const NotFound = styled.div`
