@@ -20,6 +20,17 @@ const SearchResults = styled.div`
   `}
 `
 
+
+const Input = styled.input`
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 3px;
+  margin: 10px;
+  float: right:
+  width: 200px;
+  display: block;
+`
+
 const Close = styled.span `
   float: right;
   cursor: pointer;
@@ -64,7 +75,7 @@ export default class Search extends Component<Props> {
     return (
       <div>
 
-        <input type="text"  placeholder="Search" onFocus={this.setSearchActive} onChange={this.filterList}/>
+        <Input type="text"  placeholder="Search" onFocus={this.setSearchActive} onChange={this.filterList}/>
         <SearchResults
           searchActive={this.state.searchActive}>
           <Close onClick={this.closeSearch}>Close</Close>
