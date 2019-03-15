@@ -37,8 +37,8 @@ class PlayerBar extends React.Component<Props, State> {
       <Container expanded={expanded}>
         <Inner expanded={expanded}>
           <ToggleButton onClick={togglePlayer}>
-            {expanded && <i className="fa fa-arrow-up fa-1x" />}
-            {!expanded && <i className="fa fa-arrow-down fa-1x" />}
+            {!expanded && <i className="fa fa-arrow-up fa-1x" />}
+            {expanded && <i className="fa fa-arrow-down fa-1x" />}
           </ToggleButton>
           <Panel expanded={expanded} contentPanel>
             <Content>
@@ -63,11 +63,12 @@ class PlayerBar extends React.Component<Props, State> {
                 <i className="fa fa-step-backward fa-1x" />
               </Button>
               <Button
+                expanded={expanded}
                 onClick={() =>
                   setPlayer({
                     type: 'youtube',
-                    title: 'Seth Myers',
-                    src: 'CuXlBSuQbMo'
+                    title: `Patty Brard viel 30 kilo af: 'Verschil is shocking'`,
+                    src: 'nFx3jAkiWPE'
                   })
                 }
               >
@@ -150,7 +151,7 @@ const YouTube = styled.div`
 `;
 
 const Button = styled.button`
-  background: none;
+  background: ${props => (props.expanded ? '#eaeaea' : 'none')};
   border-radius: 50%;
   color: #000;
   width: 40px;

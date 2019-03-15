@@ -16,7 +16,8 @@ export default function playerbar(state: * = {}, action: Action) {
         ...state,
         type: action.payload.type,
         title: action.payload.title,
-        src: action.payload.src
+        src: action.payload.src,
+        expanded: true
       };
     default:
       return {
