@@ -7,6 +7,11 @@ const Wrapper = styled.div`
   position: relative;
   margin: 0;
 
+  .slick-dots,
+  .slick-arrow {
+    display: none !important;
+  }
+
   .slick-slider {
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
@@ -76,6 +81,10 @@ const Wrapper = styled.div`
     &.dragging img {
       pointer-events: none;
     }
+    > div {
+      width: 100%;
+      height: 400px;
+    }
   }
 
   [dir='rtl'] .slick-slide {
@@ -120,7 +129,7 @@ export default class Carousel extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      variableWidth: true,
+      variableWidth: false,
       accessibility: true
     };
 
