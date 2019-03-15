@@ -43,7 +43,12 @@ class PlayerBar extends React.Component<Props, State> {
           <Panel expanded={expanded} contentPanel>
             <Content>
               {type === 'kijk' && <div>Kijk player</div>}
-              {type === 'juke' && <div>Kijk player</div>}
+              {type === 'juke' && (
+                <Audio controls autoPlay>
+                  <source src={src} type="audio/mpeg" />
+                  Your browser does not support the audio tag.
+                </Audio>
+              )}
               {type === 'youtube' && (
                 <YouTube>
                   <iframe
@@ -185,4 +190,8 @@ const Panel = styled.div`
 
   height: ${props => (props.expanded && props.contentPanel ? '80vh' : 'auto')};
   padding: ${props => (props.expanded && props.contentPanel ? '16px' : '0')};
+`;
+
+const Audio = styled.audio`
+  display: none;
 `;
