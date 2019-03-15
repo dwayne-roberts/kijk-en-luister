@@ -36,7 +36,9 @@ class Show extends React.Component<Props> {
 
 export default withRouter(Show);
 
-const Container = styled.div``;
+const Container = styled.div`
+  padding: 48px;
+`;
 
 const NotFound = styled.div`
   display: flex;
