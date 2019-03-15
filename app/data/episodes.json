@@ -40,7 +40,7 @@
       "program": "meestervisser",
       "themeColor": "#4e5a70",
       "uri": "https//www.google.nl"
-    }
+    },
     {
       "title": "Veronica Inside",
       "slug": "veronica-inside",
@@ -81,7 +81,7 @@
       "program": "meestervisser",
       "themeColor": "#4e5a70",
       "uri": "https//www.google.nl"
-    }
+    },
     {
       "title": "Veronica Inside",
       "slug": "veronica-inside",
@@ -122,7 +122,7 @@
       "program": "meestervisser",
       "themeColor": "#4e5a70",
       "uri": "https//www.google.nl"
-    }
+    },
     {
       "title": "Veronica Inside",
       "slug": "veronica-inside",
@@ -163,7 +163,7 @@
       "program": "meestervisser",
       "themeColor": "#4e5a70",
       "uri": "https//www.google.nl"
-    }
+    },
     {
       "title": "Veronica Inside",
       "slug": "veronica-inside",
@@ -204,7 +204,7 @@
       "program": "meestervisser",
       "themeColor": "#4e5a70",
       "uri": "https//www.google.nl"
-    }
+    },
     {
       "title": "Veronica Inside",
       "slug": "veronica-inside",
@@ -245,7 +245,8 @@
       "program": "meestervisser",
       "themeColor": "#4e5a70",
       "uri": "https//www.google.nl"
-    }
+    },
+
 
   ]
 }
