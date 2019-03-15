@@ -5,6 +5,8 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 body {
+  margin: 0;
+  padding: 0;
   position: relative;
   color: white;
   height: 100vh;
@@ -32,16 +34,4 @@ p {
 
 li {
   list-style: none;
-}
-
-a {
-  color: white;
-  opacity: 0.75;
-  text-decoration: none;
-}
-
-a:hover {
-  opacity: 1;
-  text-decoration: none;
-  cursor: pointer;
 }
