@@ -132,6 +132,8 @@ const ToggleButton = styled.button`
 
 const Content = styled.div`
   display: flex;
+  width: 100%;
+  height: 100%;
 `;
 
 const Controls = styled.div`
@@ -139,14 +141,15 @@ const Controls = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
+  padding-bottom: ${props => (props.expanded ? '16px;' : 0)};
 `;
 
 const YouTube = styled.div`
   display: flex;
-
+  width: 100%;
   > iframe {
     height: 100%;
-    width: auto;
+    width: 100%;
   }
 `;
 
@@ -170,6 +173,7 @@ const Title = styled.h2`
   transition: all 0.15s ${CUBIC};
   color: #000;
   opacity: ${props => (props.expanded ? '1' : '0.5')};
+  margin-bottom: ${props => (props.expanded ? '8px' : '0')};
 `;
 
 const Panel = styled.div`
@@ -179,5 +183,6 @@ const Panel = styled.div`
   justify-content: center;
   align-items: center;
 
-  height: ${props => (props.expanded && props.contentPanel ? '90vh' : 'auto')};
+  height: ${props => (props.expanded && props.contentPanel ? '80vh' : 'auto')};
+  padding: ${props => (props.expanded && props.contentPanel ? '16px' : '0')};
 `;
